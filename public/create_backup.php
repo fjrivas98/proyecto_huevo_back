@@ -11,9 +11,11 @@ $DBPASSWD="";
 $DATABASE="test";
 $filename = "backup-" . date("d-m-Y") . ".sql.gz";
 
-$cmd = "mysqldump -u pepe -p1234 --all-databases  > laderrotadehuevo.sql ";
-system($cmd, $output);
-print_r($output);
+$cmd = "mysqldump -u pepe -p1234 --all-databases  > db_backup.sql ";
+
+exec($cmd, $output);
+
+echo true;
 
 
 // if ($conn->connect_error) {

@@ -24,27 +24,292 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/ `esto_es_una_prueba_php` /*!40100 DEFAU
 USE `esto_es_una_prueba_php`;
 
 --
--- Table structure for table `tablaprueba1xd`
+-- Table structure for table `alcampo`
 --
 
-DROP TABLE IF EXISTS `tablaprueba1xd`;
+DROP TABLE IF EXISTS `alcampo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `tablaprueba1xd` (
-  `1` int(11) NOT NULL,
-  `2` int(11) NOT NULL,
-  `3` int(11) NOT NULL,
-  `4` date NOT NULL
+CREATE TABLE `alcampo` (
+  `campooiooo` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `tablaprueba1xd`
+-- Dumping data for table `alcampo`
 --
 
-LOCK TABLES `tablaprueba1xd` WRITE;
-/*!40000 ALTER TABLE `tablaprueba1xd` DISABLE KEYS */;
-/*!40000 ALTER TABLE `tablaprueba1xd` ENABLE KEYS */;
+LOCK TABLES `alcampo` WRITE;
+/*!40000 ALTER TABLE `alcampo` DISABLE KEYS */;
+/*!40000 ALTER TABLE `alcampo` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `asd`
+--
+
+DROP TABLE IF EXISTS `asd`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `asd` (
+  `perfect` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `asd`
+--
+
+LOCK TABLES `asd` WRITE;
+/*!40000 ALTER TABLE `asd` DISABLE KEYS */;
+/*!40000 ALTER TABLE `asd` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `elecho`
+--
+
+DROP TABLE IF EXISTS `elecho`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `elecho` (
+  `prueba1` int(4) DEFAULT NULL,
+  `prueba14` text DEFAULT NULL,
+  `prueba2` varchar(5) DEFAULT NULL,
+  `prueba3` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `elecho`
+--
+
+LOCK TABLES `elecho` WRITE;
+/*!40000 ALTER TABLE `elecho` DISABLE KEYS */;
+/*!40000 ALTER TABLE `elecho` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `justin222`
+--
+
+DROP TABLE IF EXISTS `justin222`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `justin222` (
+  `prueba1` int(4) DEFAULT NULL,
+  `prueba2` text DEFAULT NULL,
+  `prueba3` varchar(4) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `justin222`
+--
+
+LOCK TABLES `justin222` WRITE;
+/*!40000 ALTER TABLE `justin222` DISABLE KEYS */;
+/*!40000 ALTER TABLE `justin222` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `justin2244`
+--
+
+DROP TABLE IF EXISTS `justin2244`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `justin2244` (
+  `prueba1` int(4) DEFAULT NULL,
+  `prueba2` text DEFAULT NULL,
+  `prueba3` varchar(4) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `justin2244`
+--
+
+LOCK TABLES `justin2244` WRITE;
+/*!40000 ALTER TABLE `justin2244` DISABLE KEYS */;
+/*!40000 ALTER TABLE `justin2244` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `nuevaaa`
+--
+
+DROP TABLE IF EXISTS `nuevaaa`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `nuevaaa` (
+  `asd` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `nuevaaa`
+--
+
+LOCK TABLES `nuevaaa` WRITE;
+/*!40000 ALTER TABLE `nuevaaa` DISABLE KEYS */;
+/*!40000 ALTER TABLE `nuevaaa` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `numericoooo`
+--
+
+DROP TABLE IF EXISTS `numericoooo`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `numericoooo` (
+  `asd` int(5) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `numericoooo`
+--
+
+LOCK TABLES `numericoooo` WRITE;
+/*!40000 ALTER TABLE `numericoooo` DISABLE KEYS */;
+/*!40000 ALTER TABLE `numericoooo` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `numeros`
+--
+
+DROP TABLE IF EXISTS `numeros`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `numeros` (
+  `camponumerico` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `numeros`
+--
+
+LOCK TABLES `numeros` WRITE;
+/*!40000 ALTER TABLE `numeros` DISABLE KEYS */;
+/*!40000 ALTER TABLE `numeros` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `prepu`
+--
+
+DROP TABLE IF EXISTS `prepu`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `prepu` (
+  `pe` int(3) DEFAULT NULL,
+  `pa` text DEFAULT NULL,
+  `pi` varchar(5) DEFAULT NULL,
+  `pu` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `prepu`
+--
+
+LOCK TABLES `prepu` WRITE;
+/*!40000 ALTER TABLE `prepu` DISABLE KEYS */;
+/*!40000 ALTER TABLE `prepu` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tabla`
+--
+
+DROP TABLE IF EXISTS `tabla`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tabla` (
+  `camp1` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tabla`
+--
+
+LOCK TABLES `tabla` WRITE;
+/*!40000 ALTER TABLE `tabla` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tabla` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tabla23`
+--
+
+DROP TABLE IF EXISTS `tabla23`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tabla23` (
+  `camp1` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tabla23`
+--
+
+LOCK TABLES `tabla23` WRITE;
+/*!40000 ALTER TABLE `tabla23` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tabla23` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `weona`
+--
+
+DROP TABLE IF EXISTS `weona`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `weona` (
+  `asd` int(5) DEFAULT NULL,
+  `asddd` text DEFAULT NULL,
+  `sdswh` varchar(23) DEFAULT NULL,
+  `asdf` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `weona`
+--
+
+LOCK TABLES `weona` WRITE;
+/*!40000 ALTER TABLE `weona` DISABLE KEYS */;
+/*!40000 ALTER TABLE `weona` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `weonawsd`
+--
+
+DROP TABLE IF EXISTS `weonawsd`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `weonawsd` (
+  `asd` int(5) DEFAULT NULL,
+  `asddd` text DEFAULT NULL,
+  `sdswh` varchar(23) DEFAULT NULL,
+  `asdf` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `weonawsd`
+--
+
+LOCK TABLES `weonawsd` WRITE;
+/*!40000 ALTER TABLE `weonawsd` DISABLE KEYS */;
+/*!40000 ALTER TABLE `weonawsd` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -62,6 +327,51 @@ USE `kenosementiende`;
 CREATE DATABASE /*!32312 IF NOT EXISTS*/ `laravel` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
 USE `laravel`;
+
+--
+-- Table structure for table `asdf`
+--
+
+DROP TABLE IF EXISTS `asdf`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `asdf` (
+  `fecha` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `asdf`
+--
+
+LOCK TABLES `asdf` WRITE;
+/*!40000 ALTER TABLE `asdf` DISABLE KEYS */;
+/*!40000 ALTER TABLE `asdf` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `justino`
+--
+
+DROP TABLE IF EXISTS `justino`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `justino` (
+  `123` int(30) NOT NULL,
+  `asdf` varchar(30) NOT NULL,
+  `qwer` text NOT NULL,
+  `zxcv` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `justino`
+--
+
+LOCK TABLES `justino` WRITE;
+/*!40000 ALTER TABLE `justino` DISABLE KEYS */;
+/*!40000 ALTER TABLE `justino` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Current Database: `mysql`
@@ -257,7 +567,7 @@ CREATE TABLE `global_priv` (
 
 LOCK TABLES `global_priv` WRITE;
 /*!40000 ALTER TABLE `global_priv` DISABLE KEYS */;
-INSERT INTO `global_priv` VALUES ('localhost','root','{\"access\":18446744073709551615}'),('127.0.0.1','root','{\"access\":18446744073709551615}'),('::1','root','{\"access\":18446744073709551615}'),('localhost','pma','{\"access\":0,\"plugin\":\"mysql_native_password\",\"authentication_string\":\"\",\"password_last_changed\":1571661132}'),('%','pepe','{\"access\":268434431,\"plugin\":\"mysql_native_password\",\"authentication_string\":\"*A4B6157319038724E3560894F7F932C8886EBFCF\",\"password_last_changed\":1589469689}'),('%','dania_eres_lindisima','{\"access\":268434431,\"plugin\":\"mysql_native_password\",\"authentication_string\":\"*4A196125195D2C2E4D040FEABAD2968C2546F881\",\"password_last_changed\":1589318321}');
+INSERT INTO `global_priv` VALUES ('localhost','root','{\"access\":18446744073709551615}'),('127.0.0.1','root','{\"access\":18446744073709551615}'),('::1','root','{\"access\":18446744073709551615}'),('localhost','pma','{\"access\":0,\"plugin\":\"mysql_native_password\",\"authentication_string\":\"\",\"password_last_changed\":1571661132}'),('%','pepe','{\"access\":268434431,\"plugin\":\"mysql_native_password\",\"authentication_string\":\"*A4B6157319038724E3560894F7F932C8886EBFCF\",\"password_last_changed\":1589469689}');
 /*!40000 ALTER TABLE `global_priv` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -444,7 +754,7 @@ CREATE TABLE `innodb_index_stats` (
 
 LOCK TABLES `innodb_index_stats` WRITE;
 /*!40000 ALTER TABLE `innodb_index_stats` DISABLE KEYS */;
-INSERT INTO `innodb_index_stats` VALUES ('esto_es_una_prueba_php','tablaprueba1xd','GEN_CLUST_INDEX','2020-05-14 15:06:56','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','tablaprueba1xd','GEN_CLUST_INDEX','2020-05-14 15:06:56','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','tablaprueba1xd','GEN_CLUST_INDEX','2020-05-14 15:06:56','size',1,NULL,'Number of pages in the index'),('mysql','gtid_slave_pos','PRIMARY','2019-10-21 12:17:49','n_diff_pfx01',0,1,'domain_id'),('mysql','gtid_slave_pos','PRIMARY','2019-10-21 12:17:49','n_diff_pfx02',0,1,'domain_id,sub_id'),('mysql','gtid_slave_pos','PRIMARY','2019-10-21 12:17:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('mysql','gtid_slave_pos','PRIMARY','2019-10-21 12:17:49','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__bookmark','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__bookmark','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__bookmark','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__central_columns','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__central_columns','PRIMARY','2019-10-21 12:19:11','n_diff_pfx02',0,1,'db_name,col_name'),('phpmyadmin','pma__central_columns','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__central_columns','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__column_info','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__column_info','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__column_info','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__column_info','db_name','2019-10-21 12:19:11','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__column_info','db_name','2019-10-21 12:19:11','n_diff_pfx02',0,1,'db_name,table_name'),('phpmyadmin','pma__column_info','db_name','2019-10-21 12:19:11','n_diff_pfx03',0,1,'db_name,table_name,column_name'),('phpmyadmin','pma__column_info','db_name','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__column_info','db_name','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__designer_settings','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__designer_settings','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__designer_settings','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__export_templates','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__export_templates','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__export_templates','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__export_templates','u_user_type_template','2019-10-21 12:19:11','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__export_templates','u_user_type_template','2019-10-21 12:19:11','n_diff_pfx02',0,1,'username,export_type'),('phpmyadmin','pma__export_templates','u_user_type_template','2019-10-21 12:19:11','n_diff_pfx03',0,1,'username,export_type,template_name'),('phpmyadmin','pma__export_templates','u_user_type_template','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__export_templates','u_user_type_template','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__favorite','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__favorite','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__favorite','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__history','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__history','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__history','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__history','username','2019-10-21 12:19:11','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__history','username','2019-10-21 12:19:11','n_diff_pfx02',0,1,'username,db'),('phpmyadmin','pma__history','username','2019-10-21 12:19:11','n_diff_pfx03',0,1,'username,db,table'),('phpmyadmin','pma__history','username','2019-10-21 12:19:11','n_diff_pfx04',0,1,'username,db,table,timevalue'),('phpmyadmin','pma__history','username','2019-10-21 12:19:11','n_diff_pfx05',0,1,'username,db,table,timevalue,id'),('phpmyadmin','pma__history','username','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__history','username','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__navigationhiding','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__navigationhiding','PRIMARY','2019-10-21 12:19:11','n_diff_pfx02',0,1,'username,item_name'),('phpmyadmin','pma__navigationhiding','PRIMARY','2019-10-21 12:19:11','n_diff_pfx03',0,1,'username,item_name,item_type'),('phpmyadmin','pma__navigationhiding','PRIMARY','2019-10-21 12:19:11','n_diff_pfx04',0,1,'username,item_name,item_type,db_name'),('phpmyadmin','pma__navigationhiding','PRIMARY','2019-10-21 12:19:11','n_diff_pfx05',0,1,'username,item_name,item_type,db_name,table_name'),('phpmyadmin','pma__navigationhiding','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__navigationhiding','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__pdf_pages','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'page_nr'),('phpmyadmin','pma__pdf_pages','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__pdf_pages','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__pdf_pages','db_name','2019-10-21 12:19:11','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__pdf_pages','db_name','2019-10-21 12:19:11','n_diff_pfx02',0,1,'db_name,page_nr'),('phpmyadmin','pma__pdf_pages','db_name','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__pdf_pages','db_name','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__recent','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__recent','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__recent','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__relation','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'master_db'),('phpmyadmin','pma__relation','PRIMARY','2019-10-21 12:19:11','n_diff_pfx02',0,1,'master_db,master_table'),('phpmyadmin','pma__relation','PRIMARY','2019-10-21 12:19:11','n_diff_pfx03',0,1,'master_db,master_table,master_field'),('phpmyadmin','pma__relation','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__relation','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__relation','foreign_field','2019-10-21 12:19:11','n_diff_pfx01',0,1,'foreign_db'),('phpmyadmin','pma__relation','foreign_field','2019-10-21 12:19:11','n_diff_pfx02',0,1,'foreign_db,foreign_table'),('phpmyadmin','pma__relation','foreign_field','2019-10-21 12:19:11','n_diff_pfx03',0,1,'foreign_db,foreign_table,master_db'),('phpmyadmin','pma__relation','foreign_field','2019-10-21 12:19:11','n_diff_pfx04',0,1,'foreign_db,foreign_table,master_db,master_table'),('phpmyadmin','pma__relation','foreign_field','2019-10-21 12:19:11','n_diff_pfx05',0,1,'foreign_db,foreign_table,master_db,master_table,master_field'),('phpmyadmin','pma__relation','foreign_field','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__relation','foreign_field','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__savedsearches','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__savedsearches','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__savedsearches','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2019-10-21 12:19:11','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2019-10-21 12:19:11','n_diff_pfx02',0,1,'username,db_name'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2019-10-21 12:19:11','n_diff_pfx03',0,1,'username,db_name,search_name'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__table_coords','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__table_coords','PRIMARY','2019-10-21 12:19:11','n_diff_pfx02',0,1,'db_name,table_name'),('phpmyadmin','pma__table_coords','PRIMARY','2019-10-21 12:19:11','n_diff_pfx03',0,1,'db_name,table_name,pdf_page_number'),('phpmyadmin','pma__table_coords','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__table_coords','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__table_info','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__table_info','PRIMARY','2019-10-21 12:19:11','n_diff_pfx02',0,1,'db_name,table_name'),('phpmyadmin','pma__table_info','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__table_info','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2019-10-21 12:19:11','n_diff_pfx02',0,1,'username,db_name'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2019-10-21 12:19:11','n_diff_pfx03',0,1,'username,db_name,table_name'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__tracking','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__tracking','PRIMARY','2019-10-21 12:19:11','n_diff_pfx02',0,1,'db_name,table_name'),('phpmyadmin','pma__tracking','PRIMARY','2019-10-21 12:19:11','n_diff_pfx03',0,1,'db_name,table_name,version'),('phpmyadmin','pma__tracking','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__tracking','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__userconfig','PRIMARY','2019-10-21 13:36:49','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__userconfig','PRIMARY','2019-10-21 13:36:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__userconfig','PRIMARY','2019-10-21 13:36:49','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__usergroups','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'usergroup'),('phpmyadmin','pma__usergroups','PRIMARY','2019-10-21 12:19:11','n_diff_pfx02',0,1,'usergroup,tab'),('phpmyadmin','pma__usergroups','PRIMARY','2019-10-21 12:19:11','n_diff_pfx03',0,1,'usergroup,tab,allowed'),('phpmyadmin','pma__usergroups','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__usergroups','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__users','PRIMARY','2019-10-21 12:19:11','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__users','PRIMARY','2019-10-21 12:19:11','n_diff_pfx02',0,1,'username,usergroup'),('phpmyadmin','pma__users','PRIMARY','2019-10-21 12:19:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__users','PRIMARY','2019-10-21 12:19:11','size',1,NULL,'Number of pages in the index'),('test','segunda','GEN_CLUST_INDEX','2020-05-10 15:45:22','n_diff_pfx01',0,1,'DB_ROW_ID'),('test','segunda','GEN_CLUST_INDEX','2020-05-10 15:45:22','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('test','segunda','GEN_CLUST_INDEX','2020-05-10 15:45:22','size',1,NULL,'Number of pages in the index'),('test','tablita','GEN_CLUST_INDEX','2020-05-10 15:44:44','n_diff_pfx01',0,1,'DB_ROW_ID'),('test','tablita','GEN_CLUST_INDEX','2020-05-10 15:44:44','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('test','tablita','GEN_CLUST_INDEX','2020-05-10 15:44:44','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('esto_es_una_prueba_php','alcampo','GEN_CLUST_INDEX','2020-05-14 19:12:34','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','alcampo','GEN_CLUST_INDEX','2020-05-14 19:12:34','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','alcampo','GEN_CLUST_INDEX','2020-05-14 19:12:34','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','asd','GEN_CLUST_INDEX','2020-05-14 19:18:34','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','asd','GEN_CLUST_INDEX','2020-05-14 19:18:34','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','asd','GEN_CLUST_INDEX','2020-05-14 19:18:34','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','elecho','GEN_CLUST_INDEX','2020-05-14 19:37:41','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','elecho','GEN_CLUST_INDEX','2020-05-14 19:37:41','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','elecho','GEN_CLUST_INDEX','2020-05-14 19:37:41','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','justin222','GEN_CLUST_INDEX','2020-05-14 19:36:06','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','justin222','GEN_CLUST_INDEX','2020-05-14 19:36:06','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','justin222','GEN_CLUST_INDEX','2020-05-14 19:36:06','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','justin2244','GEN_CLUST_INDEX','2020-05-14 19:37:07','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','justin2244','GEN_CLUST_INDEX','2020-05-14 19:37:07','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','justin2244','GEN_CLUST_INDEX','2020-05-14 19:37:07','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','nuevaaa','GEN_CLUST_INDEX','2020-05-14 19:11:59','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','nuevaaa','GEN_CLUST_INDEX','2020-05-14 19:11:59','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','nuevaaa','GEN_CLUST_INDEX','2020-05-14 19:11:59','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','numericoooo','GEN_CLUST_INDEX','2020-05-14 19:18:10','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','numericoooo','GEN_CLUST_INDEX','2020-05-14 19:18:10','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','numericoooo','GEN_CLUST_INDEX','2020-05-14 19:18:10','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','numeros','GEN_CLUST_INDEX','2020-05-14 19:16:24','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','numeros','GEN_CLUST_INDEX','2020-05-14 19:16:24','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','numeros','GEN_CLUST_INDEX','2020-05-14 19:16:24','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','prepu','GEN_CLUST_INDEX','2020-05-14 19:35:03','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','prepu','GEN_CLUST_INDEX','2020-05-14 19:35:03','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','prepu','GEN_CLUST_INDEX','2020-05-14 19:35:03','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','tabla','GEN_CLUST_INDEX','2020-05-14 19:09:23','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','tabla','GEN_CLUST_INDEX','2020-05-14 19:09:23','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','tabla','GEN_CLUST_INDEX','2020-05-14 19:09:23','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','tabla23','GEN_CLUST_INDEX','2020-05-14 19:10:10','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','tabla23','GEN_CLUST_INDEX','2020-05-14 19:10:10','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','tabla23','GEN_CLUST_INDEX','2020-05-14 19:10:10','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','weona','GEN_CLUST_INDEX','2020-05-14 19:33:29','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','weona','GEN_CLUST_INDEX','2020-05-14 19:33:29','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','weona','GEN_CLUST_INDEX','2020-05-14 19:33:29','size',1,NULL,'Number of pages in the index'),('esto_es_una_prueba_php','weonawsd','GEN_CLUST_INDEX','2020-05-14 19:34:11','n_diff_pfx01',0,1,'DB_ROW_ID'),('esto_es_una_prueba_php','weonawsd','GEN_CLUST_INDEX','2020-05-14 19:34:11','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('esto_es_una_prueba_php','weonawsd','GEN_CLUST_INDEX','2020-05-14 19:34:11','size',1,NULL,'Number of pages in the index'),('laravel','asdf','GEN_CLUST_INDEX','2020-05-14 19:30:01','n_diff_pfx01',0,1,'DB_ROW_ID'),('laravel','asdf','GEN_CLUST_INDEX','2020-05-14 19:30:01','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('laravel','asdf','GEN_CLUST_INDEX','2020-05-14 19:30:01','size',1,NULL,'Number of pages in the index'),('laravel','justino','GEN_CLUST_INDEX','2020-05-14 18:23:17','n_diff_pfx01',0,1,'DB_ROW_ID'),('laravel','justino','GEN_CLUST_INDEX','2020-05-14 18:23:17','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('laravel','justino','GEN_CLUST_INDEX','2020-05-14 18:23:17','size',1,NULL,'Number of pages in the index'),('mysql','gtid_slave_pos','PRIMARY','2019-10-21 12:17:49','n_diff_pfx01',0,1,'domain_id'),('mysql','gtid_slave_pos','PRIMARY','2019-10-21 12:17:49','n_diff_pfx02',0,1,'domain_id,sub_id'),('mysql','gtid_slave_pos','PRIMARY','2019-10-21 12:17:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('mysql','gtid_slave_pos','PRIMARY','2019-10-21 12:17:49','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__bookmark','PRIMARY','2020-05-14 15:22:45','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__bookmark','PRIMARY','2020-05-14 15:22:45','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__bookmark','PRIMARY','2020-05-14 15:22:45','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__central_columns','PRIMARY','2020-05-14 15:22:45','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__central_columns','PRIMARY','2020-05-14 15:22:45','n_diff_pfx02',0,1,'db_name,col_name'),('phpmyadmin','pma__central_columns','PRIMARY','2020-05-14 15:22:45','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__central_columns','PRIMARY','2020-05-14 15:22:45','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__column_info','PRIMARY','2020-05-14 15:22:46','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__column_info','PRIMARY','2020-05-14 15:22:46','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__column_info','PRIMARY','2020-05-14 15:22:46','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__column_info','db_name','2020-05-14 15:22:46','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__column_info','db_name','2020-05-14 15:22:46','n_diff_pfx02',0,1,'db_name,table_name'),('phpmyadmin','pma__column_info','db_name','2020-05-14 15:22:46','n_diff_pfx03',0,1,'db_name,table_name,column_name'),('phpmyadmin','pma__column_info','db_name','2020-05-14 15:22:46','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__column_info','db_name','2020-05-14 15:22:46','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__designer_settings','PRIMARY','2020-05-14 15:22:46','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__designer_settings','PRIMARY','2020-05-14 15:22:46','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__designer_settings','PRIMARY','2020-05-14 15:22:46','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__export_templates','PRIMARY','2020-05-14 15:22:47','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__export_templates','PRIMARY','2020-05-14 15:22:47','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__export_templates','PRIMARY','2020-05-14 15:22:47','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__export_templates','u_user_type_template','2020-05-14 15:22:47','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__export_templates','u_user_type_template','2020-05-14 15:22:47','n_diff_pfx02',0,1,'username,export_type'),('phpmyadmin','pma__export_templates','u_user_type_template','2020-05-14 15:22:47','n_diff_pfx03',0,1,'username,export_type,template_name'),('phpmyadmin','pma__export_templates','u_user_type_template','2020-05-14 15:22:47','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__export_templates','u_user_type_template','2020-05-14 15:22:47','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__favorite','PRIMARY','2020-05-14 15:22:47','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__favorite','PRIMARY','2020-05-14 15:22:47','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__favorite','PRIMARY','2020-05-14 15:22:47','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__history','PRIMARY','2020-05-14 15:22:47','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__history','PRIMARY','2020-05-14 15:22:47','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__history','PRIMARY','2020-05-14 15:22:47','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__history','username','2020-05-14 15:22:47','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__history','username','2020-05-14 15:22:47','n_diff_pfx02',0,1,'username,db'),('phpmyadmin','pma__history','username','2020-05-14 15:22:47','n_diff_pfx03',0,1,'username,db,table'),('phpmyadmin','pma__history','username','2020-05-14 15:22:47','n_diff_pfx04',0,1,'username,db,table,timevalue'),('phpmyadmin','pma__history','username','2020-05-14 15:22:47','n_diff_pfx05',0,1,'username,db,table,timevalue,id'),('phpmyadmin','pma__history','username','2020-05-14 15:22:47','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__history','username','2020-05-14 15:22:47','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__navigationhiding','PRIMARY','2020-05-14 15:22:48','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__navigationhiding','PRIMARY','2020-05-14 15:22:48','n_diff_pfx02',0,1,'username,item_name'),('phpmyadmin','pma__navigationhiding','PRIMARY','2020-05-14 15:22:48','n_diff_pfx03',0,1,'username,item_name,item_type'),('phpmyadmin','pma__navigationhiding','PRIMARY','2020-05-14 15:22:48','n_diff_pfx04',0,1,'username,item_name,item_type,db_name'),('phpmyadmin','pma__navigationhiding','PRIMARY','2020-05-14 15:22:48','n_diff_pfx05',0,1,'username,item_name,item_type,db_name,table_name'),('phpmyadmin','pma__navigationhiding','PRIMARY','2020-05-14 15:22:48','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__navigationhiding','PRIMARY','2020-05-14 15:22:48','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__pdf_pages','PRIMARY','2020-05-14 15:22:48','n_diff_pfx01',0,1,'page_nr'),('phpmyadmin','pma__pdf_pages','PRIMARY','2020-05-14 15:22:48','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__pdf_pages','PRIMARY','2020-05-14 15:22:48','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__pdf_pages','db_name','2020-05-14 15:22:48','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__pdf_pages','db_name','2020-05-14 15:22:48','n_diff_pfx02',0,1,'db_name,page_nr'),('phpmyadmin','pma__pdf_pages','db_name','2020-05-14 15:22:48','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__pdf_pages','db_name','2020-05-14 15:22:48','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__recent','PRIMARY','2020-05-14 15:22:48','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__recent','PRIMARY','2020-05-14 15:22:48','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__recent','PRIMARY','2020-05-14 15:22:48','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__relation','PRIMARY','2020-05-14 15:22:49','n_diff_pfx01',0,1,'master_db'),('phpmyadmin','pma__relation','PRIMARY','2020-05-14 15:22:49','n_diff_pfx02',0,1,'master_db,master_table'),('phpmyadmin','pma__relation','PRIMARY','2020-05-14 15:22:49','n_diff_pfx03',0,1,'master_db,master_table,master_field'),('phpmyadmin','pma__relation','PRIMARY','2020-05-14 15:22:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__relation','PRIMARY','2020-05-14 15:22:49','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__relation','foreign_field','2020-05-14 15:22:49','n_diff_pfx01',0,1,'foreign_db'),('phpmyadmin','pma__relation','foreign_field','2020-05-14 15:22:49','n_diff_pfx02',0,1,'foreign_db,foreign_table'),('phpmyadmin','pma__relation','foreign_field','2020-05-14 15:22:49','n_diff_pfx03',0,1,'foreign_db,foreign_table,master_db'),('phpmyadmin','pma__relation','foreign_field','2020-05-14 15:22:49','n_diff_pfx04',0,1,'foreign_db,foreign_table,master_db,master_table'),('phpmyadmin','pma__relation','foreign_field','2020-05-14 15:22:49','n_diff_pfx05',0,1,'foreign_db,foreign_table,master_db,master_table,master_field'),('phpmyadmin','pma__relation','foreign_field','2020-05-14 15:22:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__relation','foreign_field','2020-05-14 15:22:49','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__savedsearches','PRIMARY','2020-05-14 15:22:49','n_diff_pfx01',0,1,'id'),('phpmyadmin','pma__savedsearches','PRIMARY','2020-05-14 15:22:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__savedsearches','PRIMARY','2020-05-14 15:22:49','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2020-05-14 15:22:49','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2020-05-14 15:22:49','n_diff_pfx02',0,1,'username,db_name'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2020-05-14 15:22:49','n_diff_pfx03',0,1,'username,db_name,search_name'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2020-05-14 15:22:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__savedsearches','u_savedsearches_username_dbname','2020-05-14 15:22:49','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__table_coords','PRIMARY','2020-05-14 15:22:49','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__table_coords','PRIMARY','2020-05-14 15:22:49','n_diff_pfx02',0,1,'db_name,table_name'),('phpmyadmin','pma__table_coords','PRIMARY','2020-05-14 15:22:49','n_diff_pfx03',0,1,'db_name,table_name,pdf_page_number'),('phpmyadmin','pma__table_coords','PRIMARY','2020-05-14 15:22:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__table_coords','PRIMARY','2020-05-14 15:22:49','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__table_info','PRIMARY','2020-05-14 15:22:50','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__table_info','PRIMARY','2020-05-14 15:22:50','n_diff_pfx02',0,1,'db_name,table_name'),('phpmyadmin','pma__table_info','PRIMARY','2020-05-14 15:22:50','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__table_info','PRIMARY','2020-05-14 15:22:50','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2020-05-14 15:22:51','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2020-05-14 15:22:51','n_diff_pfx02',0,1,'username,db_name'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2020-05-14 15:22:51','n_diff_pfx03',0,1,'username,db_name,table_name'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2020-05-14 15:22:51','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__table_uiprefs','PRIMARY','2020-05-14 15:22:51','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__tracking','PRIMARY','2020-05-14 15:22:51','n_diff_pfx01',0,1,'db_name'),('phpmyadmin','pma__tracking','PRIMARY','2020-05-14 15:22:51','n_diff_pfx02',0,1,'db_name,table_name'),('phpmyadmin','pma__tracking','PRIMARY','2020-05-14 15:22:51','n_diff_pfx03',0,1,'db_name,table_name,version'),('phpmyadmin','pma__tracking','PRIMARY','2020-05-14 15:22:51','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__tracking','PRIMARY','2020-05-14 15:22:51','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__userconfig','PRIMARY','2020-05-14 15:22:52','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__userconfig','PRIMARY','2020-05-14 15:22:52','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__userconfig','PRIMARY','2020-05-14 15:22:52','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__usergroups','PRIMARY','2020-05-14 15:22:52','n_diff_pfx01',0,1,'usergroup'),('phpmyadmin','pma__usergroups','PRIMARY','2020-05-14 15:22:52','n_diff_pfx02',0,1,'usergroup,tab'),('phpmyadmin','pma__usergroups','PRIMARY','2020-05-14 15:22:52','n_diff_pfx03',0,1,'usergroup,tab,allowed'),('phpmyadmin','pma__usergroups','PRIMARY','2020-05-14 15:22:52','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__usergroups','PRIMARY','2020-05-14 15:22:52','size',1,NULL,'Number of pages in the index'),('phpmyadmin','pma__users','PRIMARY','2020-05-14 15:22:53','n_diff_pfx01',0,1,'username'),('phpmyadmin','pma__users','PRIMARY','2020-05-14 15:22:53','n_diff_pfx02',0,1,'username,usergroup'),('phpmyadmin','pma__users','PRIMARY','2020-05-14 15:22:53','n_leaf_pages',1,NULL,'Number of leaf pages in the index'),('phpmyadmin','pma__users','PRIMARY','2020-05-14 15:22:53','size',1,NULL,'Number of pages in the index');
 /*!40000 ALTER TABLE `innodb_index_stats` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -472,7 +782,7 @@ CREATE TABLE `innodb_table_stats` (
 
 LOCK TABLES `innodb_table_stats` WRITE;
 /*!40000 ALTER TABLE `innodb_table_stats` DISABLE KEYS */;
-INSERT INTO `innodb_table_stats` VALUES ('esto_es_una_prueba_php','tablaprueba1xd','2020-05-14 15:06:56',0,1,0),('mysql','gtid_slave_pos','2019-10-21 12:17:49',0,1,0),('phpmyadmin','pma__bookmark','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__central_columns','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__column_info','2019-10-21 12:19:11',0,1,1),('phpmyadmin','pma__designer_settings','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__export_templates','2019-10-21 12:19:11',0,1,1),('phpmyadmin','pma__favorite','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__history','2019-10-21 12:19:11',0,1,1),('phpmyadmin','pma__navigationhiding','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__pdf_pages','2019-10-21 12:19:11',0,1,1),('phpmyadmin','pma__recent','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__relation','2019-10-21 12:19:11',0,1,1),('phpmyadmin','pma__savedsearches','2019-10-21 12:19:11',0,1,1),('phpmyadmin','pma__table_coords','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__table_info','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__table_uiprefs','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__tracking','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__userconfig','2019-10-21 13:36:49',0,1,0),('phpmyadmin','pma__usergroups','2019-10-21 12:19:11',0,1,0),('phpmyadmin','pma__users','2019-10-21 12:19:11',0,1,0),('test','segunda','2020-05-10 15:45:22',0,1,0),('test','tablita','2020-05-10 15:44:44',0,1,0);
+INSERT INTO `innodb_table_stats` VALUES ('esto_es_una_prueba_php','alcampo','2020-05-14 19:12:34',0,1,0),('esto_es_una_prueba_php','asd','2020-05-14 19:18:34',0,1,0),('esto_es_una_prueba_php','elecho','2020-05-14 19:37:41',0,1,0),('esto_es_una_prueba_php','justin222','2020-05-14 19:36:06',0,1,0),('esto_es_una_prueba_php','justin2244','2020-05-14 19:37:07',0,1,0),('esto_es_una_prueba_php','nuevaaa','2020-05-14 19:11:59',0,1,0),('esto_es_una_prueba_php','numericoooo','2020-05-14 19:18:10',0,1,0),('esto_es_una_prueba_php','numeros','2020-05-14 19:16:24',0,1,0),('esto_es_una_prueba_php','prepu','2020-05-14 19:35:03',0,1,0),('esto_es_una_prueba_php','tabla','2020-05-14 19:09:23',0,1,0),('esto_es_una_prueba_php','tabla23','2020-05-14 19:10:10',0,1,0),('esto_es_una_prueba_php','weona','2020-05-14 19:33:29',0,1,0),('esto_es_una_prueba_php','weonawsd','2020-05-14 19:34:11',0,1,0),('laravel','asdf','2020-05-14 19:30:01',0,1,0),('laravel','justino','2020-05-14 18:23:17',0,1,0),('mysql','gtid_slave_pos','2019-10-21 12:17:49',0,1,0),('phpmyadmin','pma__bookmark','2020-05-14 15:22:45',0,1,0),('phpmyadmin','pma__central_columns','2020-05-14 15:22:45',0,1,0),('phpmyadmin','pma__column_info','2020-05-14 15:22:46',0,1,1),('phpmyadmin','pma__designer_settings','2020-05-14 15:22:46',0,1,0),('phpmyadmin','pma__export_templates','2020-05-14 15:22:47',0,1,1),('phpmyadmin','pma__favorite','2020-05-14 15:22:47',0,1,0),('phpmyadmin','pma__history','2020-05-14 15:22:47',0,1,1),('phpmyadmin','pma__navigationhiding','2020-05-14 15:22:48',0,1,0),('phpmyadmin','pma__pdf_pages','2020-05-14 15:22:48',0,1,1),('phpmyadmin','pma__recent','2020-05-14 15:22:48',0,1,0),('phpmyadmin','pma__relation','2020-05-14 15:22:49',0,1,1),('phpmyadmin','pma__savedsearches','2020-05-14 15:22:49',0,1,1),('phpmyadmin','pma__table_coords','2020-05-14 15:22:49',0,1,0),('phpmyadmin','pma__table_info','2020-05-14 15:22:50',0,1,0),('phpmyadmin','pma__table_uiprefs','2020-05-14 15:22:51',0,1,0),('phpmyadmin','pma__tracking','2020-05-14 15:22:51',0,1,0),('phpmyadmin','pma__userconfig','2020-05-14 15:22:52',0,1,0),('phpmyadmin','pma__usergroups','2020-05-14 15:22:52',0,1,0),('phpmyadmin','pma__users','2020-05-14 15:22:53',0,1,0);
 /*!40000 ALTER TABLE `innodb_table_stats` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1214,7 +1524,7 @@ CREATE TABLE `pma__recent` (
 
 LOCK TABLES `pma__recent` WRITE;
 /*!40000 ALTER TABLE `pma__recent` DISABLE KEYS */;
-INSERT INTO `pma__recent` VALUES ('root','[{\"db\":\"esto_es_una_prueba_php\",\"table\":\"tablaprueba1xd\"},{\"db\":\"pruebadelphp\",\"table\":\"klk\"},{\"db\":\"pruebadelphp\",\"table\":\"tabla1xd\"},{\"db\":\"test\",\"table\":\"segunda\"},{\"db\":\"test\",\"table\":\"tablita\"}]');
+INSERT INTO `pma__recent` VALUES ('root','[{\"db\":\"esto_es_una_prueba_php\",\"table\":\"elecho\"},{\"db\":\"laravel\",\"table\":\"asdf\"},{\"db\":\"esto_es_una_prueba_php\",\"table\":\"tabla23\"},{\"db\":\"laravel\",\"table\":\"justino\"},{\"db\":\"esto_es_una_prueba_php\",\"table\":\"tablaprueba1xd\"},{\"db\":\"pruebadelphp\",\"table\":\"klk\"},{\"db\":\"pruebadelphp\",\"table\":\"tabla1xd\"},{\"db\":\"test\",\"table\":\"segunda\"},{\"db\":\"test\",\"table\":\"tablita\"}]');
 /*!40000 ALTER TABLE `pma__recent` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1453,60 +1763,6 @@ LOCK TABLES `pma__users` WRITE;
 UNLOCK TABLES;
 
 --
--- Current Database: `test`
---
-
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `test` /*!40100 DEFAULT CHARACTER SET latin1 */;
-
-USE `test`;
-
---
--- Table structure for table `segunda`
---
-
-DROP TABLE IF EXISTS `segunda`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `segunda` (
-  `id` int(11) NOT NULL,
-  `number_t` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `segunda`
---
-
-LOCK TABLES `segunda` WRITE;
-/*!40000 ALTER TABLE `segunda` DISABLE KEYS */;
-INSERT INTO `segunda` VALUES (1,54);
-/*!40000 ALTER TABLE `segunda` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `tablita`
---
-
-DROP TABLE IF EXISTS `tablita`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `tablita` (
-  `id` int(11) NOT NULL,
-  `number` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `tablita`
---
-
-LOCK TABLES `tablita` WRITE;
-/*!40000 ALTER TABLE `tablita` DISABLE KEYS */;
-INSERT INTO `tablita` VALUES (1,43);
-/*!40000 ALTER TABLE `tablita` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Current Database: `esto_es_una_prueba_php`
 --
 
@@ -1554,12 +1810,6 @@ USE `mysql`;
 --
 
 USE `phpmyadmin`;
-
---
--- Current Database: `test`
---
-
-USE `test`;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -1570,4 +1820,4 @@ USE `test`;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-05-14 17:21:48
+-- Dump completed on 2020-05-19 13:05:48
